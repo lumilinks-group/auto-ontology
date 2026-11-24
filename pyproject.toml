@@ -28,7 +28,7 @@ dependencies = [
     # here so the next upgrade cannot take it away again.
     "importlib-metadata>=8.7.1",
     "python-dotenv>=1.2.3",
-    "snowflake-connector-python>=4.7.2",
+    "snowflake-connector-python>=4.7.3",
     "uvicorn[standard]>=0.52.4",
     # The pyarrow extra turns on Arrow result sets and cloud fetch; without it
     # large Databricks reads fall back to slow row-by-row Thrift fetches.
